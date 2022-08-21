@@ -77,7 +77,7 @@ public class Startup
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Gestione Sagre v1");
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Sample WebAPI NET 6 v1");
             });
         }
 
